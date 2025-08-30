@@ -371,16 +371,18 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="411" height="150" alt="image" src="https://github.com/user-attachments/assets/7bc641e5-a3eb-4be1-8dcc-36960e32c62a" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+<img width="560" height="151" alt="image" src="https://github.com/user-attachments/assets/7af5b904-f3b7-462b-9ea3-ed2f22c355d2" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="671" height="592" alt="image" src="https://github.com/user-attachments/assets/be07abf9-4638-47ff-b1da-c5360ed30e45" />
 
 
 mkdir backupdir
@@ -391,29 +393,20 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="748" height="603" alt="image" src="https://github.com/user-attachments/assets/28002af5-8715-4f2a-aac9-e4e6a49fed13" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="570" height="621" alt="image" src="https://github.com/user-attachments/assets/1bdd0e1a-e35d-4fc9-afa4-af610d08df85" />
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+ <img width="558" height="180" alt="image" src="https://github.com/user-attachments/assets/30db76c6-2b33-476e-b033-5c93d9a0d837" />
  
-gunzip backup.tar.gz
-## OUTPUT
-
- 
-# Shell Script
-```
-echo '#!/bin/sh' > my-script.sh
-echo 'echo Hello World‘; exit 0 >> my-script.sh
-```
-chmod 755 my-script.sh
-./my-script.sh
-## OUTPUT
-
  
 cat << stop > herecheck.txt
 ```
@@ -425,6 +418,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="558" height="288" alt="image" src="https://github.com/user-attachments/assets/1aee7cfb-cfa2-4225-acc3-4317cdfb616c" />
 
 
 cat < scriptest.sh 
